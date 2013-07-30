@@ -8,7 +8,7 @@ set :application, "hangul"
 set :rvm_type, :system
 
 set :scm, :git
-set :repository,  "git://github.com/ulmic/deadline_camp.git"
+set :repository,  "git://github.com/aelaa/hangul_site.git"
 
 set :use_sudo, false
 set :ssh_options, :forward_agent => true
