@@ -1,0 +1,18 @@
+#main
+  #header
+    %span
+      한글
+  #info
+    %span
+      Transcript Hangul text into English. Read Korean as you know it!
+  %br
+  #form
+    = form_tag(update_path, remote:true) do |f|
+      = text_area_tag :hangul, nil, onkeyup: "$(submit).click()"
+      #arrow
+        >
+      = text_area_tag :english, nil, disabled: true
+      = button_tag :submit, id:'submit', hidden:true
+  #clear
+  #footer
+    //2013, aelaa
