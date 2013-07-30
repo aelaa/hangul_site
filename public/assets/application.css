@@ -1,1 +1,98 @@
-@font-face{font-family:mfont;src:url(festus.ttf)}@font-face{font-family:kfont;src:url(korean.ttf)}body{font-family:kfont;background:url(bg.jpg),repeat}#main{background-color:white;width:90%;margin:5%;height:90%;border:thick solid #555;border-radius:20px;text-indent:5px}#header{font-family:kfont;width:100px;margin:0 auto;font-size:40px}#info{text-align:center;margin:0 auto;font-size:20px}#form{width:90%;margin:0 auto;height:80%}#form form{margin:0 auto;height:100%}#form form textarea{font-family:kfont;outline:none;height:100%;width:46%;resize:none;border:3px solid black;border-radius:10px}#form form textarea:disabled{background-color:white}#form form #arrow{margin:0 2%;position:relative;top:50%;float:left;font:20px serif}#form form #hangul{float:left}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
+/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+@font-face {
+  font-family: mfont;
+  src: url(festus.ttf);
+}
+
+@font-face {
+  font-family: kfont;
+  src: url(korean.ttf);
+}
+
+/* line 17, ../../app/assets/stylesheets/main.scss */
+body {
+  font-family: kfont;
+  background: url(bg.jpg), repeat;
+}
+
+/* line 22, ../../app/assets/stylesheets/main.scss */
+#main {
+  background-color: white;
+  width: 90%;
+  margin: 5%;
+  height: 90%;
+  border: thick solid #555;
+  border-radius: 20px;
+  text-indent: 5px;
+}
+
+/* line 32, ../../app/assets/stylesheets/main.scss */
+#header {
+  font-family: kfont;
+  width: 100px;
+  margin: 0 auto;
+  font-size: 40px;
+}
+
+/* line 39, ../../app/assets/stylesheets/main.scss */
+#info {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+/* line 45, ../../app/assets/stylesheets/main.scss */
+#form {
+  width: 90%;
+  margin: 0 auto;
+  height: 80%;
+}
+/* line 50, ../../app/assets/stylesheets/main.scss */
+#form form {
+  margin: 0 auto;
+  height: 100%;
+}
+/* line 53, ../../app/assets/stylesheets/main.scss */
+#form form textarea {
+  font-family: kfont;
+  outline: none;
+  height: 100%;
+  width: 46%;
+  resize: none;
+  border: 3px solid black;
+  border-radius: 10px;
+  font-size: 16px;
+}
+/* line 63, ../../app/assets/stylesheets/main.scss */
+#form form textarea:disabled {
+  background-color: white;
+}
+/* line 66, ../../app/assets/stylesheets/main.scss */
+#form form #arrow {
+  margin: 0 2%;
+  position: relative;
+  top: 50%;
+  float: left;
+  font: 20px serif;
+}
+/* line 73, ../../app/assets/stylesheets/main.scss */
+#form form #hangul {
+  float: left;
+}
