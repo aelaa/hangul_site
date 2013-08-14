@@ -16,65 +16,78 @@
 body {
   font-family: kfont;
   background: url(bg.jpg), repeat;
+  margin: 5%;
 }
 
 #main {
   background-color: white;
-  width:90%;
-  margin:5%;
-  height: 90%;
+  height: 100%;
   border: thick solid #555;
   border-radius: 20px;
   text-indent: 5px;
+  min-height:768px;
 }
 
 #header {
   font-family: kfont;
   width:100px;
+  height:75px;
   margin:0 auto;
-  font-size:40px;
+  font-size:60px;
 }
 
 #info {
   text-align:center;
   margin:0 auto;
   font-size:20px;
+  height:25px;
 }
 
 #form {
-  width:90%;
-  margin: 0 auto;
-  height: 80%;
-  //text-align: center;
+  margin:20px;
+  min-height:610px;
+  height:610px;
   form {
     margin: 0 auto;
+    width: 100%;
     height:100%;
     textarea {
+      float:left;
+      width:48%;
+      height:100%;
+      display:table-cell;
       font-family: kfont;
       outline: none;
-      height: 100%;
-      width:46%;
       resize: none;
       border: 3px solid black;
       border-radius: 10px;
-      font-size:16px;
+      font-size:30px
     }
+
     textarea:disabled {
       background-color: white;
     }
-    #arrow {
-      margin: 0 2%;
-      position:relative;
-      top:50%;
-      float:left;
-      font: 20px serif;
-    }
+
     #hangul {
+      float:left;
+    }
+
+    #english {
+      float:right;
+    }
+
+    #arrow {
+      position:relative;
+      top: 305px;
+      text-align: center;
+      width: 4%;
+      height:100%;
       float:left;
     }
   }
 }
 
 #footer {
-
+  float:right;
+  margin-right: 20px;
 }

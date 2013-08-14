@@ -5,7 +5,7 @@
   #info
     %span
       Transcript Hangul text into English. Read Korean as you know it!
-  %br
+    %br
   #form
     = form_tag(update_path, remote:true) do |f|
       = text_area_tag :hangul, nil, onkeyup: "$(submit).click()"
@@ -13,6 +13,6 @@
         >
       = text_area_tag :english, nil, disabled: true
       = button_tag :submit, id:'submit', hidden:true
-  #clear
   #footer
-    //2013, aelaa
+    2013, aelaa,
+    = link_to 'e-mail', "mailto:aelaau@gmail.com"
